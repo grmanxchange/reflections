@@ -4,3 +4,18 @@ When initializing a repository, git will automatically create a .git file, in wh
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 While the repository/working directory, refer to all of the files currently in the working directory, the staging area may only refer to that subset of files, that will later on be committed and, hence, tracked by git. I think this is a valuable function, as it allows one to select specifically those files one would like to include in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+As only the files in the staging area will be committed, one can simply make sure to only add those files pertaining to a logical change to the staging area and continue to commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In my case, branches would be extremely helpful when I, for example, switch from one type of analysis to another or when I would like to slightly modify a current experiment. In those cases, branches would allow me to simultaneously have different versions of the same analyses/presentations.
+
+How do the diagrams help you visualize the branch structure?
+They help me visualize the branch strucure by showing the connecting points between branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is to delete the label for one of the branches and include its commit history in the other label's commit history. As such, it makes sense to visualize this as a tree. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+The biggest drawback of automatic merging is that it can potentially be very error-prone and result in unintended merges. However, it also cuts down tremendously on the time needed to merge two different branches of code. The respective advantages and disadvantages of manual merging are the counterparts of automatic merging. 
