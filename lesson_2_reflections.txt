@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When initializing a repository, git will automatically create a .git file, in which all versions of the files within the repository will be stored. However, there is no automatic commit, as one may not want to commit all the "changes" and would not be able to add one's own commit message. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+While the repository/working directory, refer to all of the files currently in the working directory, the staging area may only refer to that subset of files, that will later on be committed and, hence, tracked by git. I think this is a valuable function, as it allows one to select specifically those files one would like to include in the repository.

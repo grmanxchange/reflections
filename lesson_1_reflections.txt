@@ -1,0 +1,26 @@
+How did viewing a diff between two versions help you spot the bug?
+
+It helped me by dramatically reducing the amount of information that I needed to process and sift through and thus by highlighting relevant passages.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I believe it would allow me to easily keep track of all the changes that have been done and also allow for an easy reversal to other versions if necessary.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does.
+
+I think the big advantage of automatic saving is also the big drawback of manual saving and vice versa. Obviously, it's very helpful not to have to remember to save something, but it also means that there is little flexibility in choosing the time point and the saved dociment may not even make sense. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google DOcs, treat each file separately.
+
+I guess it all depends on the interdependencies between the files. In Google Docs, it is relatively likely that each separate document represents a single unit. When coding, however, different functions in different files often depend on each other and so need to be changed accordingly.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log is used to view the history of the entiry repository, including a commit ID, author, and title. Git diff, on the other hand, allows one to compare two different versions exactly as to specific changes made in their content.
+
+How might using version control make you more cinfident to make changes that could break something?
+
+As it is extremely easy to revert back to previous versions, I would have no issues whatsoever changing the code as I wouldn't be afraid of losing everything. 
+
+What do you want to try using Git for?
+I would like to use Git for my future projects. In particular, I would like using it for my next MEG experiment on mental rotation, making sure that I have great version control and easy access to all of my scripts. 
