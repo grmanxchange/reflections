@@ -9,3 +9,6 @@ Forks refer to "copies" of someone else's repository directly onto my Github acc
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 In a sense, this will enable later merges with divergent states of the local and remote repository. 
+
+How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+Without Git or Github, I think I would collaborate using software like Dropbox or Google Drive. In that case, however, it would be very difficult to keep track of and merge different versions of the same file. It might, however, be easier to get everyone up to speed with the requirements of the software.
